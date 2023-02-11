@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>SMDC Website</title>
+    <link rel="icon" href="static/favicon.ico" />
+    <link rel="stylesheet" href="static/css/base.css" />
+    <link rel="stylesheet" href="static/css/index.css" />
+  </head>
+  <body>
+    <div id="header">
+      <span id="title">
+        <h1>SMDC Website</h2>
+          <b>Create&Fun</b>
+      </span>
+      <span id="links">
+        <a href="//kook.top/9ccRg6">KOOK</a>
+        <a href="//github.com/SMDCreate">Github</a>
+      </span>
+    </div>
+    <div style="text-align: center; font-style: italic; margin-bottom: 10px;">
+      <p>欢迎您，慕名而来的朋友。</p>
+      <p>这里是SMDC，一个编程与游戏的天堂。</p>
+      <p>我们热爱编程，喜欢《Minecraft》与许多独立游戏。</p>
+      <p>我们就在<a href="//kook.top/9ccRg6">这里</a>，静待您的加入。</p>
+    </div>
+    <div id="content">
+      <div id="guild-list">
+        <img src="static/img/smdc.png" style="width: 100%; margin-bottom: 10px;"/>
+        <b>主要成员(顺序不分先后)</b>
+        <div class="card">
+          <img src="{{ url_for('static', filename='img/avatar/sharll.png') }}" />
+          <div>
+            <p class="guild-role"><b>Sharll</b> 腐竹</p>
+            <p>后端py猴子</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="static/img/avatar/agj.png" />
+          <div>
+            <p class="guild-role"><b>AGJ</b> 成员</p>
+            <p>成分十分复杂 初一学生党</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="static/img/avatar/czyee.png" />
+          <div>
+            <p class="guild-role"><b>czyee</b> 成员</p>
+            <p>成分十分复杂 初一学生党*2</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="static/img/avatar/pxinz.png" />
+          <div>
+            <p class="guild-role"><b>pxinz</b> 成员</p>
+            <p>成分十分复杂 初一学生党*3</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="static/img/avatar/yelina.png" />
+          <div>
+            <p class="guild-role"><b>yelina</b> 成员</p>
+            <p>一个有快500粉丝的小up</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="static/img/avatar/crlaoyin.png" />
+          <div>
+            <p class="guild-role"><b>CRlaoyin</b> 成员</p>
+            <p>非碳基生物, 成分简单</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="static/img/avatar/mozzarella.png" />
+          <div>
+            <p class="guild-role"><b>Mozzarella</b> 成员</p>
+            <p>芝士芝士</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="static/img/avatar/owen.png" />
+          <div>
+            <p class="guild-role"><b>owen</b> 成员</p>
+            <p>迫真galaxybrain的sus</p>
+          </div>
+        </div>
+      </div>
+      <div id="project-list"> 
+        <b>主要项目</b>
+        <div class="card">
+          <b>FMCL - 开源, 轻量级, 跨平台的Minecraft启动器</b>
+          <img src="static/img/projects/fmcl.png'" />
+          <p>链接：</p>
+          <span>
+            <a href="//github.com/Sharll-large/FMCL">Github</a>
+          </span>
+        </div>
+        <div style="text-align: center;">
+          其它项目还在开发中... ...
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      © Copyright by SMDC 2022
+    </div>
+  </body>
+</html>
