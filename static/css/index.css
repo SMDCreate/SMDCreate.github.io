@@ -1,0 +1,95 @@
+/* 基础样式 */
+.card
+{
+	background-color: #FFE68060;
+	border: solid #444444 1px;
+	padding: 4px;
+	border-radius: 5px;
+	transition: padding 0.2s;
+}
+
+.card:hover
+{
+	padding: 10px;
+}
+
+/* 成员列表 */
+div#guild-list
+{
+	width: calc(30% - 20px);
+	border: solid #444444 1px;
+	padding: 10px;
+	border-radius: 10px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+div#guild-list > div.card
+{
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+}
+
+div#guild-list > div.card > img
+{
+	width: 48px;
+	height: 48px;
+	margin-right: 10px;
+}
+
+p.guild-role
+{
+	color: #AAAAAA;
+	font-size: 10px;
+}
+
+p.guild-role > b
+{
+	color: #212121;
+	font-size: 18px;
+}
+
+div#content{
+	display: flex;
+	align-items: stretch;
+}
+
+/* 项目列表 */
+div#project-list
+{
+	width: 40%;
+	border: solid #444444 1px;
+	padding: 10px;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+div#project-list > div.card
+{
+	margin-top: 10px;
+	padding: 10px;
+}
+
+div#project-list > div.card > img
+{
+	margin-top: 5px;
+	width: 100%;
+}
+
+div#project-list > div.card > span > a
+{
+	padding: 0px 10px;
+	border-right: solid #444444 1px;
+}
+
+/* 留言板 */
+div#msg-board
+{
+	width: calc(30% - 20px);
+	border: solid #444444 1px;
+	padding: 10px;
+	border-radius: 10px;
+	display: inline-block;
+	margin-left: 20px;
+}
